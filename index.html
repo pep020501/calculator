@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator </title>
+    <!--linked CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css"/>
+    <!--linked JS file-->
     <script src="./js/index.js" defer></script>
 </head>
 <body>
+    <!--main container for the box-->
     <div class="main-container">
+        <!--main container content-->
         <div class = "content">
+        <!--input numbers to be operated on-->
         <div class = "input">
         <input type="number" id="number1" placeholder="1st Number"/>
         <input type="number" id="number2" placeholder="2nd Number"/>
         </div>
-
+        <!--operation selection prompt-->
          <span id = "prompt">Select an operation to perform: </span>
+         <!--container for operation selection-->
          <div class = "buttons">
          <button id="addition">+</button>
          <button id="subtraction">-</button>
          <button id="multiplication">*</button>
          <button id="division">/</button>
          </div>
+         <!--result display-->
          <h2> Result: <span id = "result"></span></h2>
         </div>
     </div>
